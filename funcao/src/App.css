@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(to right, indigo, violet, pink);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 3px double rgb(192, 216, 255);
+  background-color: burlywood;
+  padding: 3%;
+  margin: 10%;
+}
+h1, p{
+  color: aqua;
+  font-size: 30px;
+}
+h1{font-size: 50px;}
+
+button{
+  font-size: 30px;
+  border-radius: 20px;
+  margin: 0 20px;
+  padding: 10px;
+  color: #fff;
+}
+
+.b1{
+  border: none;
+  background-color: blueviolet;
+}
+
+.b2{
+  border: none;
+  background-color: pink;
+}
+
+button:hover{
+  border: solid 2px black;
+  color: black;
+  background-color: #fff;
+}
+button:active{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
